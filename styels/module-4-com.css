@@ -1,0 +1,43 @@
+nav > ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 18px;
+}
+nav li:hover{
+    background-color: lightgrey;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+    /* Nested Menu */
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: lightyellow;
+    padding-left: 5px;
+}
+
+nav li:hover > .dropdown{
+    display: block;
+}
+h2{
+    padding: 30px;
+}
+label, table{
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid #02aeae;
+    padding: 5px 15px;
+}
